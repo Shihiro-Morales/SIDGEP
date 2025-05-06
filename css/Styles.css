@@ -1,0 +1,391 @@
+body {
+    background-color: #50041C;
+}
+
+#Principal {
+    width: 100%;
+    height: 100%;
+}
+
+#logologin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 270px;
+    z-index: 2;
+}
+
+#logologin img {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+#LoginClient {
+    background-color: #ffffffcc;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 80px);
+    overflow: hidden;
+    padding: 0%;
+    z-index: 1;
+}
+
+#LoginClient img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    opacity: 0.7;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.744);
+    height: 40px;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    border: none;
+    margin-bottom: 10px;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    z-index: 2;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#botoneslogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 440px;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    z-index: 2;
+}
+
+button {
+    background-color: #c3f8a7;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 15px;
+    border: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnPes {
+    background-color: #a0ff6d;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 15px;
+    border: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.btnIzq {
+    background-color: #a0ff6d;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    border: none;
+    left: 0;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 2;
+}
+
+.btnDer {
+    background-color: #a0ff6d;
+    width: 120px;
+    height: 40px;
+    bottom: 0;
+    right: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eaeaea;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.hinfo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    position: absolute;
+    z-index: 2;
+    left: 550px;
+}
+
+#izq {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    z-index: 2;
+}
+
+#der {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    z-index: 2;
+}
+
+#barra {
+    padding: 10px;
+}
+
+#barra img {
+    width: 45px;
+    height: 45px;
+}
+
+#supizq {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+
+#supder {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+#TableInfo {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    width: 720px;
+    resize: horizontal;
+    position: fixed;
+    top: 150px;
+    left: 360px;
+    z-index: 2;
+    padding: 0px 20px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inputresal {
+    background: #E5D5D5;
+    height: 30px;
+    line-height: 10px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
+.casillas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+}
+
+.casillasD {
+    display: flex;
+    justify-content: center;
+    left: 220px;
+    top: 130px;
+    gap: 40px;
+    z-index: 2;
+    position: absolute;
+}
+
+.casillasD2 {
+    display: flex;
+    justify-content: center;
+    left: 220px;
+    top: 200px;
+    gap: 40px;
+    z-index: 2;
+    position: absolute;
+}
+
+.casillasD3 {
+    display: flex;
+    justify-content: center;
+    left: 180px;
+    top: 320px;
+    gap: 80px;
+    z-index: 2;
+    position: absolute;
+}
+
+.mnavegation {
+    z-index: 999;
+    display: flex;
+    position: relative;
+    padding: 0;
+}
+
+.mnavegation .mncontec {
+    padding: 0px;
+    z-index: 999;
+    position: fixed;
+    width: 200px;
+    height: 440px;
+    border-radius: 20px;
+    background: #cac9c9a6;
+}
+
+.mnavegation .mncontec h5 {
+    z-index: 2;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mnavegation .mncontec ul li {
+    z-index: 2;
+    padding: 15px;
+    border-top: 1px solid rgb(225, 225, 225, 0.05);
+    list-style: none;
+    margin: 0;
+}
+
+.mnavegation .mncontec ul li a {
+    color: #0f0f0f;
+    display: block;
+}
+
+.mnavegation .mncontec ul li a .fa {
+    width: 2px;
+}
+
+.mnavegation .mncontec ul li:hover {
+    background: #000000;
+}
+
+.mnavegation .mncontec ul li:hover a {
+    color: #fff;
+}
+
+.img_R {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    padding: 0, 10;
+}
+
+.inputresal2 {
+    background: #da1818;
+    height: 30px;
+    line-height: 10px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
+.infoopc {
+    display: flex;
+    justify-content: center;
+    left: 550px;
+    top: 250px;
+    z-index: 2;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    #TableInfo {
+        width: 90%;
+        left: 5%;
+        top: 120px;
+    }
+
+    .casillasD,
+    .casillasD2,
+    .casillasD3 {
+        flex-direction: column;
+        gap: 10px;
+        left: 20px;
+    }
+
+    .img_R {
+        display: none;
+    }
+
+    #formlogin,
+    #botoneslogin {
+        flex-direction: column;
+        top: auto;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    button {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .mnavegation .mncontec {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .hinfo,
+    .infoopc {
+        left: 20px;
+        top: auto;
+        position: relative;
+        margin-top: 10px;
+    }
+}
